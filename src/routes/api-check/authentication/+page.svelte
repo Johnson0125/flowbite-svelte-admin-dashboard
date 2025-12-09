@@ -2,8 +2,7 @@
   import { Heading } from 'flowbite-svelte';
   import { HighlightCompo, CodeWrapper, CompoAttributesViewer } from '../../utils';
   import * as ExampleComponents from './examples';
-  let { data } = $props();
-  // console.log(data.posts.adminDashboard)
+
   const exampleModules = import.meta.glob('./examples/*.svelte', {
     query: '?raw',
     import: 'default',

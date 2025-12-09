@@ -1,7 +1,7 @@
 import type { Component, Snippet } from 'svelte';
 import type { SizeType, IndicatorProps, CardProps, HeadingProps, DropdownProps } from 'flowbite-svelte';
 import type { ApexOptions } from 'apexcharts';
-import type { HTMLFormAttributes, HTMLAttributes } from 'svelte/elements';
+import type { HTMLFormAttributes } from 'svelte/elements';
 
 export type MenuItem = {
   name: string;
@@ -385,8 +385,8 @@ interface SelectOption {
 }
 
 interface AdditionalField {
-  name: string;        // Form field name (e.g., 'technology', 'category')
-  label: string;       // Display label (e.g., 'Technology', 'Category')
+  name: string; // Form field name (e.g., 'technology', 'category')
+  label: string; // Display label (e.g., 'Technology', 'Category')
   placeholder?: string; // Default option text (e.g., 'Select technology')
   options: SelectOption[];
 }

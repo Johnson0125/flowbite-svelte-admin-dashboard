@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { imagesPath } from '$lib';
   import { Avatar, Button, Card, Heading, List, Li } from 'flowbite-svelte';
   // import Users from '../../data/users.json';
   import type { AccountsProps } from './types';
@@ -23,7 +22,7 @@
     {#each users as { avatar, name, country, status }}
       <Li class={liClass}>
         <div class="flex items-start space-x-4">
-          <Avatar src={imagesPath(avatar, 'users')} size="xs" class="mt-1" />
+          <Avatar src={avatar} size="xs" class="mt-1" />
           <div class="min-w-0 flex-1">
             <p class="truncate text-base font-semibold text-gray-900 dark:text-white">
               {name}
@@ -53,7 +52,7 @@
 @component
 [Go to docs](https://flowbite-svelte-admin-dashboard.vercel.app/)
 ## Type
-[AccountsProps](https://github.com/themesberg/flowbite-svelte-admin-dashboard/blob/main/src/lib/types.ts#L555)
+[AccountsProps](https://github.com/themesberg/flowbite-svelte-admin-dashboard/blob/main/src/lib/types.ts#L569)
 ## Props
 @prop children
 @prop users

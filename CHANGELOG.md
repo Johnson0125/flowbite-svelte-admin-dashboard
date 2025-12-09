@@ -1,5 +1,35 @@
 # flowbite-svelte-admin-dashboard
 
+## 2.1.1
+
+### Patch Changes
+
+- fix: add fallback url to MY_IMG_DIR
+
+## 2.1.0
+
+### Minor Changes
+
+- feat: require env VITE_IMG_DIR
+
+## 2.0.2
+
+### Patch Changes
+
+- chore: cleanup
+
+## 2.0.1
+
+### Patch Changes
+
+- fix: UserMenu
+
+## 2.0.0
+
+### Major Changes
+
+- feat(ProductDrawer): add Drawer and additionalFields
+
 ## 1.1.1
 
 ### Patch Changes

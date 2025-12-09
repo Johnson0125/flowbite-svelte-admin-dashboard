@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Button, Label, Select } from 'flowbite-svelte';
+  import { Label, Select } from 'flowbite-svelte';
   import { CardWidget } from '$lib';
   import type { LanguageTimeProps } from './types';
 
@@ -48,7 +48,7 @@
 @component
 [Go to docs](https://flowbite-svelte-admin-dashboard.vercel.app/)
 ## Type
-[LanguageTimeProps](https://github.com/themesberg/flowbite-svelte-admin-dashboard/blob/main/src/lib/types.ts#L483)
+[LanguageTimeProps](https://github.com/themesberg/flowbite-svelte-admin-dashboard/blob/main/src/lib/types.ts#L497)
 ## Props
 @prop languages
 @prop timezones
